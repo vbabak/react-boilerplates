@@ -6,6 +6,14 @@ ReactJS TypeScript boilerplates with different app configurations.
 PWA, built with using TypeScript, ReactJS, Redux, Redux-Tools, react-router-dom, SASS, esbuild, eslint.
 Includes parsing HTML and SASS processor.
 
+### Esbuild known issues
+
+- Does not support HTML parsing. Therefore using [hash] in generated file names is difficult.
+- Does not have SASS processor. Need to add a plugin to parse SASS styles.
+- Does not support PWA routing. Reloading server on any non-index route leads to 404. As workaround we will need to write a proxy server to pass all requests to the "/".
+
+### Examples
+
 ```bash
 cd redux-tools-esbuild
 npm run dev
