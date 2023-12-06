@@ -10,7 +10,7 @@ Includes parsing HTML and SASS processor.
 
 - Does not support HTML parsing. Therefore using [hash] in generated file names is difficult.
 - Does not have SASS processor. Need to add a plugin to parse SASS styles.
-- Does not support PWA routing. Reloading server on any non-index route leads to 404. As workaround we will need to write a proxy server to pass all requests to the "/".
+- Does not support PWA routing. Reloading browser on any non-index route leads to 404. As workaround we will need to write a proxy server to pass all requests to the "/".
 
 ### Examples
 
