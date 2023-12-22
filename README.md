@@ -6,7 +6,7 @@ ReactJS TypeScript boilerplates with different app configurations.
 PWA, built with using TypeScript, ReactJS, Redux, Redux-Tools, react-router-dom, SASS, esbuild, eslint.
 Includes parsing HTML and SASS processor.
 
-### Esbuild flaws
+### Esbuild things to note
 
 - Does not support HTML parsing. Therefore using [hash] in generated file names is difficult.
 - Does not have SASS processor. Need to add a plugin to parse SASS styles.
@@ -73,7 +73,7 @@ npm run dev
 # Serving on "http://localhost:3000"
 ```
 
-### NextJS flaws
+### Things to note
 
 - No PWA support out of the box. Use SSR or deploy set of static pages.
 - Tight coupling with Next server and Vercel infrastructure.
