@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "build": "parcel build ./src/index.html",
+    "serve": "parcel ./src/index.html"
+  },
+  "devDependencies": {
+    "@parcel/packager-ts": "2.11.0",
+    "@parcel/transformer-typescript-types": "2.11.0",
+    "@types/react": "^18.2.53",
+    "@types/react-dom": "^18.2.18",
+    "autoprefixer": "^10.4.17",
+    "parcel": "^2.11.0",
+    "postcss": "^8.4.33",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.1",
+    "typescript": ">=3.0.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recoil": "^0.7.7"
+  }
+}

@@ -1,6 +1,11 @@
 # react-boilerplates
 ReactJS TypeScript boilerplates with different app configurations.
 
+## recoil-parcel-tailwind
+
+ReactJS, Recoil, Tailwind, Parcel setup.
+Preferable setup.
+
 ## redux-tools-esbuild
 
 PWA, built with using TypeScript, ReactJS, Redux, Redux-Tools, react-router-dom, SASS, esbuild, eslint.
