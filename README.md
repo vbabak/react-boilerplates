@@ -1,10 +1,14 @@
 # react-boilerplates
+
 ReactJS TypeScript boilerplates with different app configurations.
+
+## preact-signals-vite
+
+ReactJS, PreactSignals, Vite.
 
 ## recoil-parcel-tailwind
 
 ReactJS, Recoil, Tailwind, Parcel setup.
-Preferable setup.
 
 ## redux-tools-esbuild
 
@@ -66,6 +70,7 @@ node ./esbuild.js --prod
   dist/v0.0.1/styles/index.css                                                                           281b   100.0%
    └ src/styles/index.scss                                                                               280b    99.6%
 ```
+
 ## next-blank
 
 NextJS blank app setup with TypeScript, SCSS, eslint.
